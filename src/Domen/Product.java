@@ -1,5 +1,7 @@
 package Domen;
 
+import java.awt.Component;
+
 public class Product {
     // Поля
     private int price;
@@ -54,7 +56,7 @@ public class Product {
     }
 
     public String getName() {
-        return name;
+       return name;
     }
 
     public void setName(String name) {
